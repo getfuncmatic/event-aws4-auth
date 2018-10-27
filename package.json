@@ -1,0 +1,25 @@
+{
+  "name": "@funcmatic/event-aws4-auth",
+  "version": "0.0.1",
+  "description": "Authorize the AWS v4 signature of an AWS Lambda Proxy event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Daniel Jhin Yoo <danieljyoo@gmail.com> (https://github.com/danieljyoo)",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/getfuncmatic/event-aws4-auth.git"
+  },
+  "dependencies": {
+    "@funcmatic/event-request": "0.0.2",
+    "aws4": "^1.8.0"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
