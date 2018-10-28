@@ -1,6 +1,6 @@
 {
   "name": "@funcmatic/event-aws4-auth",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Authorize the AWS v4 signature of an AWS Lambda Proxy event.",
   "main": "index.js",
   "scripts": {
